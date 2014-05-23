@@ -1,0 +1,23 @@
+name: DrownForce
+main: io.github.oaschi.drownforce.DrownForce
+version: 0.1
+author: oaschi
+description: drown somebody
+commands:
+  drown:
+    description: drowns a player
+    usage: /drown <player>
+  drownforever:
+    description: drowns a player forever (even after he died and respawned)
+    aliases: [drownfe]
+    usage: /drownforever <player>
+  undrown:
+    usage: /undrown <player>
+    
+permissions:
+  drownforce.drown:
+    description: Allows to drown a player
+    default: op
+  drownforce.undrown:
+    description: Allows to undrown a player
+    default: op
